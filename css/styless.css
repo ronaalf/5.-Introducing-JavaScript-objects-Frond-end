@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*////////////////Super Heroes///////////////*/
+.superHeroes-container{
+  width: 800px;
+  height: 500px;
+  border: 3px solid rgb(0, 17, 255);
+  margin: 20px auto;
+  padding-left: 60px;
+} 
+
+  h1, h2 {
+    font-family: 'Faster One', cursive;
+  }
+  
+  /* header styles */
+  
+  h1 {
+    font-size: 4rem;
+    margin-left: 60px;
+  }
+
+  header{
+      padding: 10px;
+  }
+
+  header p {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-left: 180px;
+  }
+  
+  /* section styles */
+  
+  section article {
+    width: 33%;
+    float: left;
+    padding: 10px;
+  }
+  
+  section p {
+    margin: 5px 0;
+  }
+  
+  section ul {
+    margin-top: 0;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+
+  /*///////////// Bouncing balls ///////////////*/
+
+  .bouncingBalls-container{
+    width: 90%;
+    height: 500px;
+    border: 10px double yellow;
+    margin: 0 auto 20px;
+    position: relative;
+   
+  }
+
+  .canvass{
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+  }
+
+  #Paragh{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    color: white;
+  }
